@@ -180,8 +180,8 @@ class Mastermind
     puts 'You must enter your code in a string of letters, each letter representing a color(no repeating colors):  '.cyan + 'G = Green   '.green + 'Y = Yellow   '.yellow + 'B = Blue   '.blue + 'C = Cyan   '.cyan + 'M = Magenta   '.magenta + 'R = Red'.red
     puts "ie: 'RGBY' = ".cyan + 'O '.red + 'O '.green + 'O '.blue + 'O '.yellow
     puts ''
-    puts 'CPU randomly chosen code: '.cyan + stringify_balls(@CPU_code)
-    puts ''
+    # puts 'CPU randomly chosen code: '.cyan + stringify_balls(@CPU_code)
+    # puts ''
     puts 'Starting a game of Mastermind...'.magenta
     puts ''
   end
